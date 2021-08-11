@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ff4c4c;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.mr-5,
+.ml-3 {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Amiri', serif;
+    color: white;
+}
+
+#total {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#number {
+    position: relative;
+    left: 40%;
+    top: -40px;
+}
+
+#money {
+    align-items: center;
+    position: relative;
+    left: 30%;
+}
